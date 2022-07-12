@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* Consolas Font */
+    font-family: Consolas;
+}
+
+/* Main Flex */
+.main-flex-container {
+
+    /* Flex Display with Column Direction */
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 5px;
+
+    text-align: right;
+
+    background-color: #565656;
+    
+}
+
+/* Display Numbers Calculator */
+.display {
+
+    font-size: 28px;
+    color: white;
+
+    margin: 0px 1px 0px 1px;
+    padding: 0px 10px 0px 10px;
+
+    background-color: #565656;
+    border: 1px solid #565656;
+    
+}
+
+#subDisplayNumber {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: lightgray;
+
+    font-size: 23px;
+}
+#displayNumber {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+/* Secondary Flex With Row Direction */
+.secondary-flex-container {
+    display: flex;
+}
+
+/* Button Number and Symbol */
+.button {
+
+    flex-basis: 25%;
+
+    margin: 1px;
+    padding: 20px 13px 20px 13px;
+
+    text-align: center;
+    color: white;
+    font-size: 25px;
+
+    background-color: #141414;
+    opacity: 0.8;
+    
+    /* For Clicking Element */
+    cursor: pointer;
+}
+
+/* Number Button */
+.number {
+    font-weight: bold;
+    background-color: black;
+    opacity: unset;
+}
+
+/* Button With Black Background */
+.number-black {
+    background-color: black;
+    opacity: unset;
+}
+
+/* When Cursor on a button */
+.button:hover {
+    background-color: #4b4b4b;
+}
+
+/* Equals button Different Color */
+.equals {
+    background-color: #246565;
+}
+
+/* When Cursor on a Equals button */
+.equals:hover {
+    background-color: #2dc0c0;
+}
+
